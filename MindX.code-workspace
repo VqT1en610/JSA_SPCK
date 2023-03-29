@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../MindX"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JSA"
+	}
+}
