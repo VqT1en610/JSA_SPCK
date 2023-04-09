@@ -1,0 +1,52 @@
+
+.product-lol h1 {
+    font-size: 15px;
+}
+.product-lol  button {
+    font-size: 15px;
+    width: 30%;
+}
+.product-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.product-lol img {
+    width: 350px;
+    height: 350px;
+}
+.footer {
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+}
+.contact h1  {
+    font-size: 30px;
+}
+.contact h2 {
+    font-size: 25px;
+    color: red;
+}
+.contact h3  {
+    font-size: 15px;
+}
+.icons i {
+    font-size: 30px;
+    padding:10px 5px;
+}
+.product-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+.product-items img {
+    width: 70%;
+    height: 70%;
+}
+.product-items h1 {
+    font-size: large;
+    padding: 10px 0 ;
+}
+.product-lol {
+    width: 70%;
+}
