@@ -78,3 +78,11 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.map {
+  margin: 10px;
+}
+
+.contact {
+  margin-top: 10px;
+}
