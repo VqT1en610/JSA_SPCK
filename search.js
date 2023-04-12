@@ -1,18 +1,16 @@
 document
-  .getElementsByClassName("btn btn-outline-success")
-  .addEventListener("click", () => {
-    let searchInput = document
-      .getElementsByClassName("btn btn-outline-success")
-      .value.toUpperCase();
-    let img = document.querySelectorAll(".img");
-    let productsName = document.querySelectorAll(".h1");
-    let card = document.querySelectorAll(".product-items");
-
-    productsName.forEach((items, index) => {
-      if (items.innerText.includes(searchInput)) {
-        card[index].style.display = "";
+document.getElementById("search").addEventListener("click", () => {
+  let searchInput = document.getElementById("search-input").value.toUpperCase();
+  let img = document.querySelectorAll(".img");
+  let productsName = document.querySelectorAll(".item-name");
+  let card = document.querySelectorAll(".product-lol");
+  
+  productsName.forEach((items, index) => {
+      if (items.innerText.toUpperCase().includes(searchInput)) {
+          card[index].classList.remove("hide");
       } else {
-        card[index].style.display = "none";
+          card[index].classList.add("hide");
       }
-    });
   });
+});
+
