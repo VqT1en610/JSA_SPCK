@@ -2,6 +2,7 @@
 fetch("https://date.nager.at/api/v3/NextPublicHolidaysWorldwide?countryCode=VN")
   .then((response) => response.json())
   .then((data) => {
+    console.log(data);
     // Tìm Ngày Quốc tế Thiếu nhi trong dữ liệu trả về từ API
     const childrensDay = data.find(
       (holiday) => holiday.name === "International Children's Day"
