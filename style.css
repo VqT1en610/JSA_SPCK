@@ -18,7 +18,7 @@
 }
 .footer {
     display: flex;
-    background-color: yellow;
+    background-color:#c8c209;
     justify-content: space-around;
 }
 .contact h1  {
@@ -78,3 +78,5 @@
   height: 48px;
   width: 265px;
 }
+#hinh{width: 100px;
+height: 40px;}
