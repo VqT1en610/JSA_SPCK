@@ -34,13 +34,18 @@
   padding: 10px 5px;
 }
 .product-items {
+  display: block;
+  width: 100px;
+}
+.product-items card {
   display: flex;
-  justify-content: space-evenly;
-  padding: 50px 0;
+  width: 10px;
+}
+.product-items container {
+  font-size: 10px;
 }
 .product-items img {
-  width: 70%;
-  height: 70%;
+  width: 30px;
 }
 .product-items h1 {
   font-size: large;
@@ -80,4 +85,7 @@
 }
 .nav {
   text-align: center;
+}
+#ax {
+  display: flex;
 }
