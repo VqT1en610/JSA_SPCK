@@ -1,16 +1,14 @@
-
-
 .product-lol h1 {
     font-size: 15px;
 }
-.product-lol  button {
+.product-lol button {
     font-size: 15px;
     width: 30%;
 }
 .product-items {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px 0;
+    padding-bottom: 70px;
 }
 .product-lol img {
     width: 350px;
@@ -21,60 +19,53 @@
     background-color: yellow;
     justify-content: space-around;
 }
-.contact h1  {
+.contact h1 {
     font-size: 30px;
 }
 .contact h2 {
     font-size: 25px;
     color: red;
 }
-.contact h3  {
+.contact h3 {
     font-size: 15px;
 }
 .icons i {
     font-size: 30px;
-    padding:10px 5px;
+    padding: 10px 5px;
 }
-.product-items {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px 0;
-}
-.product-items img {
-    width: 70%;
-    height: 70%;
-}
-.product-items h1 {
-    font-size: large;
-    padding: 10px 0 ;
-}
-.product-lol {
-    width: 70%;
-}
+
 .hide {
     display: none;
+}
 
 /* Footer */
 .text-center text-white {
-  width: 867px;
-  height: 300px;
-  background-color: #ffd23f;
-  margin-top: 160px;
-  display: flex;
-  justify-content: space-evenly;
+    width: 867px;
+    height: 300px;
+    background-color: #ffd23f;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .divider:after,
 .divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
 }
 
 .col-md-7 col-lg-5 col-xl-5 offset-xl-1 {
-  width: 500px;
+    width: 500px;
+}
 
 #pass {
-  height: 48px;
-  width: 265px;
+    height: 48px;
+    width: 265px;
+}
+.nav {
+    text-align: center;
+}
+#ax {
+    display: flex;
 }
