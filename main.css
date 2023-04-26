@@ -42,7 +42,7 @@ h5 {
 h6 {
   margin: 40px;
   color: #3d96b1;
-  font-family: Cambria;
+  font-family: "Cambria";
   font-size: 17px;
 }
 .card {
@@ -71,7 +71,7 @@ h6 {
   margin: auto;
   background-color: #ffd3b0;
   border-radius: 30px;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   align-items: center;
   padding: 20px;
 }

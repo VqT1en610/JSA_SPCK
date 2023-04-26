@@ -12,11 +12,18 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light qtien">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light navtien">
+      <div class="container-fluid navtien">
+        <a class="navbar-brand" href="#">Datienghi</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,10 +41,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Product</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -48,16 +55,17 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown link
+                Account
               </a>
               <ul
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="login.html">Đăng nhập</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="registration.html">Đăng ký</a>
                 </li>
               </ul>
             </li>
@@ -102,6 +110,33 @@
             <a href="login.html">Already have an account</a>
           </div>
         </form>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="contact">
+        <div class="ttin">
+          <h5 style="color:#3d96b1">HOTLINE CHĂM SÓC KHÁCH HÀNG</h5>
+          <h5 style="color:#3d96b1">19001208</h2>
+          <h5 style="color:#3d96b1">Từ thứ Hai đến thứ Bảy (08:00 - 17:00)</h3>
+          <h5 style="color:#3d96b1">Chủ nhật (08:00 - 12:00)</h3>
+        </div>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-facebook-messenger"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8242444013745!2d103.85230801394879!3d1.2790274621571542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da190e334a518f%3A0xcad303181bf53c50!2sMBFC%20Tower%203!5e0!3m2!1svi!2sus!4v1669207384542!5m2!1svi!2sus"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
     <script src="./app.js"></script>
