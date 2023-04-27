@@ -48,7 +48,7 @@ login.onclick = (e) => {
     if (emailAddress == Email && passWord == Password) {
       Swal.fire("Good job!", "login successful!", "success");
       setTimeout(() => {
-        location.href = "index.html";
+        location.href = "main.html";
       }, 1000);
     } else {
       Swal.fire("Opps..!", "Something is wrong!", "error");
