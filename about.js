@@ -1,6 +1,3 @@
-window.onload = function () {
-    alert("Chào mừng đến với trang thông tin về Ngày Quốc tế Thiếu nhi!");
-};
 // Ngày Quốc tế Thiếu nhi là ngày 1/6
 var countDownDate = new Date("June 1, 2023 00:00:00").getTime();
 
@@ -50,3 +47,7 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+mybutton.addEventListener("click", topFunction);
+
+mybutton.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
