@@ -12,20 +12,21 @@ submit_button.onclick = (e) => {
     localStorage.setItem("Email", email);
     localStorage.setItem("Password", pass);
     localStorage.setItem("Cpassword", cpass);
+
     if (fname == "" && lname == "" && email == "" && pass == "" && cpass == "") {
-        Swal.fire("Opps..!", "input field has no value!", "error");
+        alert("Cần nhập tất cả các ô!");
     } else {
         if (pass.length >= 6 && pass.length <= 20) {
             if (pass !== cpass) {
-                Swal.fire("Oops..!", "Mật khẩu không trùng khớp!", "error");
+                alert("Mật khẩu không trùng khớp!");
             } else {
-                Swal.fire("Good job!", "Đăng ký thành công!", "success");
+                alert("Đăng ký thành công!");
                 setTimeout(() => {
                     location.href = "login.html";
-                }, 5000);
+                }, 1000);
             }
         } else {
-            Swal.fire("Opps..!", "Ít nhất 6 kí tự!", "error");
+            alert("Mật khẩu ít nhất 6 kí tự!");
         }
     }
 };
@@ -43,15 +44,15 @@ login.onclick = (e) => {
     const Password = localStorage.getItem("Password");
 
     if (emailAddress == "" && passWord == "") {
-        Swal.fire("Opps..!", "input field has no value!", "error");
+        alert("Cần nhập tất cả các ô!");
     } else {
         if (emailAddress == Email && passWord == Password) {
-            Swal.fire("Good job!", "login successful!", "success");
+            alert("Đăng nhập thành công!");
             setTimeout(() => {
-                location.href = "main.html";
+                location.href = "index.html";
             }, 1000);
         } else {
-            Swal.fire("Opps..!", "Something is wrong!", "error");
+            alert("Tài khoản không tồn tại!");
         }
     }
 };
